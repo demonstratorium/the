@@ -1,7 +1,7 @@
 {  "name"                       : "the"
 ,  "version"                    : "0.0.3"
 ,  "description"                : "THE ultimate web and rest server 2018"
-,  "main"                       : "server.js"
+,  "main"                       : "mserver.js"
 ,  "engine"                     : { "node" : "*"
                                   , "npm"  : "*"
                                   }
@@ -11,7 +11,7 @@
 ,  "license"                    : "MIT" 
 ,  "dependencies"               : {}
 ,  "bundleDependencies"         : []
-,  "scripts"                    : { "start"         : "node server.js"}                        
+,  "scripts"                    : { "start"         : "node mserver.js"}                        
 ,  "config"                     : { "tabs"          : []
                                   , "data"          : "deflate"
                                   , "flatdata"      : "flat"
