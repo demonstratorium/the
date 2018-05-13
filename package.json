@@ -1,0 +1,27 @@
+{  "name"                       : "the"
+,  "version"                    : "0.0.1"
+,  "description"                : "THE ultimate web and rest server 2018"
+,  "main"                       : "server.js"
+,  "engine"                     : { "node" : "*"
+                                  , "npm"  : "*"
+                                  }
+,  "repository"                 : { "type": "git"
+                                  , "url" : "https://github.com/demonstratorium/the.git" 
+                                  } 
+,  "license"                    : "MIT" 
+,  "dependencies"               : {}
+,  "bundleDependencies"         : []
+,  "scripts"                    : { "start"         : "node server.js"}                        
+,  "config"                     : { "tabs"          : []
+                                  , "data"          : "deflate"
+                                  , "flatdata"      : "flat"
+                                  , "flatintabs"    : []
+                                  , "flatouttabs"   : []
+                                  , "cert"          : "uwr"
+                                  , "first"         : "default"
+                                  , "webport"       : 8123
+                                  , "is_log"        : true
+                                  , "is_debug"      : true
+                                  , "build"         : "./build/"
+                                  }
+}
