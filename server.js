@@ -7,8 +7,8 @@ const http                                 = require('http')//('http2')('https')
 ,     rest                                  = require('./'+config.build+'sw_rest')
 // -----------------------------------------(own) NODE-Modules ------
 // --------------------------------------------------------------------
-,     port                                  = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || config.webport
-,     ipaddress                             = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP   || '*'
+,port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080
+,ipaddress = process.env.IP || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0'
 // --------------------------------------------------------------------
 ,     router                                = (req,res,data,config) => {
                                                 let postdata = ''
