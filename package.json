@@ -1,5 +1,5 @@
 {  "name"                       : "the"
-,  "version"                    : "0.0.3"
+,  "version"                    : "0.0.4"
 ,  "description"                : "THE ultimate web and rest server 2018"
 ,  "main"                       : "mserver.js"
 ,  "engine"                     : { "node" : "*"
