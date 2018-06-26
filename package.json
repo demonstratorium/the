@@ -1,5 +1,5 @@
 {  "name"                       : "the"
-,  "version"                    : "0.0.9"
+,  "version"                    : "0.0.10"
 ,  "description"                : "THE ultimate web and rest server 2018"
 ,  "main"                       : "mserver.js"
 ,  "engine"                     : { "node" : "*"
@@ -13,7 +13,7 @@
 ,  "bundleDependencies"         : []
 ,  "scripts"                    : { "start"         : "node mserver.js"}                        
 ,  "config"                     : { "tabs"          : []
-                                  , "data"          : "deflate"
+                                  , "zip"           : "deflate"
                                   , "flatdata"      : "flat"
                                   , "flatintabs"    : []
                                   , "flatouttabs"   : []
