@@ -1,5 +1,5 @@
 {  "name"                       : "the"
-,  "version"                    : "0.0.10"
+,  "version"                    : "0.0.11"
 ,  "description"                : "THE ultimate web and rest server 2018"
 ,  "main"                       : "mserver.js"
 ,  "engine"                     : { "node" : "*"
@@ -22,7 +22,8 @@
                                   , "webport"       : 8123
                                   , "is_log"        : true
                                   , "is_debug"      : true
-                                  , "backup_time"   : 1434235432
+                                  , "is_backup"     : true
+                                  , "backup_time"   : 60000
                                   , "build"         : "./build/"
                                   , "data"          : "./"
                                   }
